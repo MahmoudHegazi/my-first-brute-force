@@ -12,7 +12,7 @@ test generate all possible words from chars or numbers or signs dynamic js (my f
 
 
 all can done of 3 atoms with minlength 1 (word 1char) and maxLength 3 (word 3chars) is 39 
-![image](https://github.com/user-attachments/assets/17731323-cd95-470c-8448-d33bacaeb8e3)
+![image](https://github.com/user-attachments/assets/25894fb5-6ed4-4690-815e-d85b67909451)
 math confirm and forumla in math not logic and loops desgin
 ![image](https://github.com/user-attachments/assets/e612bbd6-0496-400b-8f83-2123fc08a703)
 
