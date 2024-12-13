@@ -5,6 +5,7 @@ test generate all possible words from chars or numbers or signs dynamic js (my f
 
 ![image](https://github.com/user-attachments/assets/97164b24-4383-4918-8023-be12cf198a09)
 
+### note 2 2 it 1 grouponly
 ![image](https://github.com/user-attachments/assets/2e79583f-ab55-4492-a91f-58dc92b1b6dd)
 
 
