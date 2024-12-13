@@ -64,13 +64,14 @@ function isDuplicate(arr = []) {
              allWords.push(`${current}${o}`);
           });
         }
-        // not full completed (abb) missing done abb but i think may missing some need max law confirm by chatgpt  ex 3of2 length 3is 10  missing 121 types solved
+        // not full completed (abb) missing done abb but i think may missing some need max law confirm by chatgpt  ex 3of2 length 3is 10  missing 121 types solved remaning 211
         if (minLength <= 3 && maxLength >= 3) {
           
           // 3only staticpart for current
           allWords.push(`${current}${current}${current}`);
           others.forEach((co)=>{
              allWords.push(`${current}${current}${co}`);
+             allWords.push(`${co}${current}${current}`);
 
           });
           others.forEach((oC, i, arr)=>{
@@ -82,6 +83,7 @@ function isDuplicate(arr = []) {
 
 
              allWords.push(`${current}${oC}${current}`);
+             //allWords.push(`${oC}${current}${current}`);
 
             //allWords.push(`${current}${oC}${oC}`);
            // allWords.push(`${current}${oC}${current}`);
