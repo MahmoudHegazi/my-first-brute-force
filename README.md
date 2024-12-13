@@ -26,6 +26,6 @@ u control cpu from js as u execute only the needed to reach your target so 27 is
 ![image](https://github.com/user-attachments/assets/0ebee981-9e19-4e38-a993-c94a178f1bc1)
 
 
-## we deal with atoms when use desgin pattern so atom can be any char, num , anysymobl, or boyend burtne-forcer-dream static atom word always checked their posibilties and omit logical in other currents so treated as it char atom logically dynamic max
+## we deal with atoms when use desgin pattern so atom can be any char, num , anysymobl, or boyend burtne-forcer-dream static atom word such as (space pythonking space) always checked their posibilties and omit logical in other currents so treated as it char atom logically dynamic max
 
 ![image](https://github.com/user-attachments/assets/3c4f8702-9c99-4eb8-a366-85a402568cf0)
