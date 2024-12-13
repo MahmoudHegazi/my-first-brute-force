@@ -8,7 +8,7 @@ test generate all possible words from chars or numbers or signs dynamic js (my f
 ### note 2 2 it 1 grouponly
 ![image](https://github.com/user-attachments/assets/2e79583f-ab55-4492-a91f-58dc92b1b6dd)
 
-
+### this dynamic same desgin pattern loops algo handle 1 2 so it not static result it static blocks atoms and logical and code for eachcase also helps in control easy the performance cpu execute only what needed and get it and no need any !INCLUDES CHECK MEAN 0
 ![image](https://github.com/user-attachments/assets/51bb2886-d8e0-4e4c-8707-518642b48ada)
 
 
