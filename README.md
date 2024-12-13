@@ -31,5 +31,15 @@ u control cpu from js as u execute only the needed to reach your target so 27 is
 
 ![image](https://github.com/user-attachments/assets/3c4f8702-9c99-4eb8-a366-85a402568cf0)
 
+
+
+![image](https://github.com/user-attachments/assets/2ab0672f-607f-42be-8336-372e5b34fe6b)
+
+#add as many as need as u not pass max length 3the static rules
+![image](https://github.com/user-attachments/assets/dbc4bb11-1f6d-4afe-96db-99e41b47e4fb)
+![image](https://github.com/user-attachments/assets/1281c637-649e-491c-900b-273068a4cd38)
+
+
+
 Atoms is desgin pattern and loop meaning
 ![image](https://github.com/user-attachments/assets/a01b72a2-18aa-4f1a-86c3-85ee4aa770a5)
