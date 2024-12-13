@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input value="a" style="max-width:30px" class="val"><input value="b" style="max-width:30px" class="val">
+<input value="c" style="max-width:30px" class="val">
+
+<div id="arr"></div>
+<div id="demo"></div>
+
+<script>
+ let vars = [];
+ const getVars = ()=>(Array.from(document.querySelectorAll(".val")).map((e)=>e.value));
+ 
+ 
+function isDuplicate(arr = []) {
+    return ((arr.reduce((varObj, current) => {
+        if (varObj !== false) {
+            if (varObj.includes(current)) {
+                return false;
+            }
+            varObj.push(current)
+            return varObj;
+        } else {
+            return false;
+        }
+    }, [])) === false);
+}
+
+ function drawer(words, length, minLength) {
+    let n = 0;
+    document.querySelector("#demo").innerHTML = "";
+    words.forEach((word, i)=>{
+      n += 1;
+      document.querySelector("#demo").innerHTML += `<div style="padding:4px;border: 1px solid lightgray;margin:8px 0;">W${i+1}: ${word}</div>`;
+   });
+   document.querySelector("#demo").innerHTML += `<div style="padding:4px;border: 1px solid lightgray;margin:8px 0;text-align:center;">args: ${length} , Min: ${minLength},  Total: ${n} </div>`;
+ }
+ function getALlWords(chars=[], minLength=0){
+     let allWords = [];
+     if (!Array.isArray(chars) || chars.length == 0 || minLength == 0 || isDuplicate(chars)) {
+        throw new Error('Invalid args must provide unqiue atoms chars nums etc');
+     }
+     /* all code start*/
+     for (let c=0; c<chars.length; c++) {
+        const current = chars[c];
+        const others = chars.filter((e)=>(e!==current));
+        
+        //performance and dynamic when needed
+        if (minLength == 1 && maxLength >= 1) {
+          // 1only
+          allWords.push(current);
+        }
+        
+        if (minLength <= 2 && maxLength >= 2) {
+          
+          // 2only 2stepneeded as loop for others only
+          allWords.push(`${current}${current}`);
+          const currentWithOthers = others.forEach((o)=>{
+             allWords.push(`${current}${o}`);
+          });
+        }
+        
+        if (minLength <= 3 && maxLength >= 3) {
+          
+          // 3only staticpart for current
+          allWords.push(`${current}${current}${current}`);
+          others.forEach((co)=>{
+             allWords.push(`${current}${current}${co}`);
+          });
+          others.forEach((oC)=>{
+             allWords.push(`${oC}${oC}${current}`);
+          });
+          
+          const reversdOthers = others.reverse();
+          allWords.push(`${current}${current}${co}`);
+          allWords.push(`${current}${current}${co}`);
+        }
+       
+        console.log('Current:', current,'others:',others);
+        
+     }
+     /*allcode end*/
+     drawer(allWords, chars.length, minLength);
+     
+     document.querySelector("#arr").innerHTML =   JSON.stringify(allWords);
+     
+    alert(isDuplicate(allWords));
+ }
+ const minLength = 1;
+ const maxLength = 3;
+ document.addEventListener("DOMContentLoaded", ()=>{
+   vars = getVars();
+   getALlWords(vars,minLength);
+   document.addEventListener("change", ()=>{
+      vars = getVars();
+      getALlWords(vars,minLength);
+   });
+ });
+ 
+
+</script>
+</body>
+</html> 
