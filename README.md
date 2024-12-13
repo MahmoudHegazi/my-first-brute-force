@@ -1,7 +1,7 @@
 # my-first-brute-force
 test generate all possible words from chars or numbers or signs dynamic js (my first try with brute-force from scratch using nested loops and logical check statments)
 
-# current version is app.html
+# current version is app2.html
 
 ![image](https://github.com/user-attachments/assets/97164b24-4383-4918-8023-be12cf198a09)
 
