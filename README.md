@@ -22,5 +22,5 @@ u control cpu from js as u execute only the needed to reach your target so 27 is
 ![image](https://github.com/user-attachments/assets/60f0490b-7c29-4297-9cf6-cd025708a40d)
 
 
-2 from the 3 3**2
+2 from the 3 3**3
 ![image](https://github.com/user-attachments/assets/0ebee981-9e19-4e38-a993-c94a178f1bc1)
