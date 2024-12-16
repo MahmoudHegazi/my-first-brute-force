@@ -1,6 +1,8 @@
 # my-first-brute-force
 test generate all possible words from chars or numbers or signs dynamic js (my first try with brute-force from scratch using nested loops and logical check statments)
 
+mix of {brute-force} and {dictionary} attack it organized and full gotten as it 1 {dictionary} and it generate {all possible values of 3 attoms} (1 attom can be char), number, signs, or word!, or sentence!, or full big pragraph
+(support infity attoms args, infity support infity size of string, max is 3 attoms not 3 length of final result).
 
 ![image](https://github.com/user-attachments/assets/4fb3078c-a048-4759-b150-6c3245a26d47)
 ![image](https://github.com/user-attachments/assets/9623b896-0b56-4c0a-bd61-97439e70e368)
@@ -41,6 +43,8 @@ u control cpu from js as u execute only the needed to reach your target so 27 is
 ![image](https://github.com/user-attachments/assets/2ab0672f-607f-42be-8336-372e5b34fe6b)
 
 #add as many as need as u not pass max length 3the static rules
+
+
 ![image](https://github.com/user-attachments/assets/dbc4bb11-1f6d-4afe-96db-99e41b47e4fb)
 ![image](https://github.com/user-attachments/assets/1281c637-649e-491c-900b-273068a4cd38)
 
